@@ -1,0 +1,27 @@
+{
+  "name": "nx-react-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:test": "pnpm run dev --filter=test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.6.3",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "lerna": "^7.3.0",
+    "nx": "^16.8.1",
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "nx-cloud": "^16.4.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "hooks",
+  "version": "1.0.0",
+  "description": "Shared hooks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies":{
+    "typescript": "^5.2.2"
+
+  }
+}
