@@ -1,1 +1,3 @@
-console.log("1345t")
+export default function testFunction() {
+  console.log("test");
+}

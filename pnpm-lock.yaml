@@ -98,19 +98,19 @@ importers:
   packages/all:
     dependencies:
       hooks:
-        specifier: workspace:*
+        specifier: 1.0.0
         version: link:../hooks
       icons:
-        specifier: workspace:*
+        specifier: 0.1.0-alpha.0
         version: link:../icons
       react:
         specifier: ^18.2.0
         version: 18.2.0
       ui:
-        specifier: workspace:*
+        specifier: 1.0.0
         version: link:../ui
       utils:
-        specifier: workspace:*
+        specifier: 0.1.0-alpha.0
         version: link:../utils
     devDependencies:
       clsx:
@@ -140,6 +140,10 @@ importers:
         version: 5.2.2
 
   packages/icons:
+    dependencies:
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
     devDependencies:
       typescript:
         specifier: ^5.2.2

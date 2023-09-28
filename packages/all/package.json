@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hooks": "workspace:*",
-    "icons": "workspace:*",
+    "hooks": "1.0.0",
+    "icons": "0.1.0-alpha.0",
     "react": "^18.2.0",
-    "ui": "workspace:*",
-    "utils": "workspace:*"
+    "ui": "1.0.0",
+    "utils": "0.1.0-alpha.0"
   },
   "devDependencies": {
     "clsx": "^2.0.0",
@@ -22,5 +22,6 @@
     "tailwind-merge": "^1.14.0",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
-  }
+  },
+  "gitHead": "abc8f43fb0c6cbb48bc5a64f93bee3526ea90d12"
 }

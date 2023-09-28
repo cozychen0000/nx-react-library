@@ -1,1 +1,4 @@
-console.log("icons")
+export default function testFunction() {
+    console.log("icons");
+  }
+  
