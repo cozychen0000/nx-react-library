@@ -1,6 +1,6 @@
 {
   "name": "all",
-  "version": "0.1.0-alpha.0",
+  "version": "0.2.0-alpha.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hooks": "1.0.0",
-    "icons": "0.1.0-alpha.0",
+    "hooks": "^0.2.0-alpha.0",
+    "icons": "^0.2.0-alpha.0",
     "react": "^18.2.0",
-    "ui": "1.0.0",
-    "utils": "0.1.0-alpha.0"
+    "ui": "^0.2.0-alpha.0",
+    "utils": "^0.2.0-alpha.0"
   },
   "devDependencies": {
     "clsx": "^2.0.0",
