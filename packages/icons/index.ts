@@ -1,4 +1,4 @@
-export default function testFunction() {
-    console.log("icons");
+export default function testFunction(test:string) {
+    console.log(test);
   }
   
