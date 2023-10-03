@@ -1,6 +1,6 @@
 {
   "name": "nx-react-library-utils",
-  "version": "0.2.0-alpha.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.ts",
   "scripts": {

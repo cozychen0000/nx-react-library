@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "nx-react-library-hooks",
-  "version": "0.2.0-alpha.0",
+  "version": "0.2.0",
   "description": "Shared hooks",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

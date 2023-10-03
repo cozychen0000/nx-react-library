@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "nx-react-library-ui",
-  "version": "0.2.0-alpha.0",
+  "version": "0.2.0",
   "description": "Shared UI components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
