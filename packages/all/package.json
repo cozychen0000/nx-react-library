@@ -1,5 +1,5 @@
 {
-  "name": "all",
+  "name": "nx-react-library-all",
   "version": "0.2.0-alpha.0",
   "description": "",
   "main": "index.ts",
@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hooks": "^0.2.0-alpha.0",
-    "icons": "^0.2.0-alpha.0",
     "react": "^18.2.0",
-    "ui": "^0.2.0-alpha.0",
-    "utils": "^0.2.0-alpha.0"
+    "nx-react-library-hooks": "^0.2.0-alpha.0",
+    "nx-react-library-icons": "^0.2.0-alpha.0",
+    "nx-react-library-ui": "^0.2.0-alpha.0",
+    "nx-react-library-utils": "^0.2.0-alpha.0"
   },
   "devDependencies": {
     "clsx": "^2.0.0",
@@ -23,5 +23,5 @@
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
   },
-  "gitHead": "abc8f43fb0c6cbb48bc5a64f93bee3526ea90d12"
+  "gitHead": "75310b5a539bd0e8fb6206a15e2399e6bf9b1130"
 }
