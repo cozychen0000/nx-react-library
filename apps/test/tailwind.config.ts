@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import twPlugin from "ui/plugin";
+import twPlugin from "ui/plugin/base";
 // import { mergedStyles } from "ui/plugin";
 
 export default {
