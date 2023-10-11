@@ -12,9 +12,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "react": "^18.2.0"
-  },
   "devDependencies": {
     "typescript": "^5.2.2"
   },
