@@ -101,16 +101,16 @@ importers:
   packages/all:
     dependencies:
       nx-react-library-hooks:
-        specifier: ^0.2.0
+        specifier: ^0.2.1
         version: link:../hooks
       nx-react-library-icons:
-        specifier: ^0.2.0
+        specifier: ^0.2.1
         version: link:../icons
       nx-react-library-ui:
-        specifier: ^0.2.0
+        specifier: ^0.2.1
         version: link:../ui
       nx-react-library-utils:
-        specifier: ^0.2.0
+        specifier: ^0.2.1
         version: link:../utils
       react:
         specifier: ^18.2.0
