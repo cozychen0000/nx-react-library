@@ -1,6 +1,6 @@
 {
   "name": "nx-react-library-all",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -12,7 +12,7 @@
   "dependencies": {
     "nx-react-library-hooks": "^0.2.1",
     "nx-react-library-icons": "^0.2.1",
-    "nx-react-library-ui": "^0.2.1",
+    "nx-react-library-ui": "^0.2.2",
     "nx-react-library-utils": "^0.2.1",
     "react": "^18.2.0"
   },
