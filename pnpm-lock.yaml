@@ -107,7 +107,7 @@ importers:
         specifier: ^0.2.1
         version: link:../icons
       nx-react-library-ui:
-        specifier: ^0.2.2
+        specifier: ^0.2.5
         version: link:../ui
       nx-react-library-utils:
         specifier: ^0.2.1
@@ -153,12 +153,27 @@ importers:
       '@storybook/addon-postcss':
         specifier: ^2.0.0
         version: 2.0.0(webpack@5.88.2)
+      clsx:
+        specifier: ^2.0.0
+        version: 2.0.0
       concurrently:
         specifier: ^8.2.1
         version: 8.2.1
+      postcss:
+        specifier: ^8.4.30
+        version: 8.4.30
       react:
         specifier: ^18.2.0
         version: 18.2.0
+      tailwind-merge:
+        specifier: ^1.14.0
+        version: 1.14.0
+      tailwindcss:
+        specifier: ^3.3.3
+        version: 3.3.3
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
     devDependencies:
       '@babel/preset-env':
         specifier: ^7.23.2
@@ -196,27 +211,9 @@ importers:
       '@storybook/testing-library':
         specifier: 0.2.2
         version: 0.2.2
-      clsx:
-        specifier: ^2.0.0
-        version: 2.0.0
-      postcss:
-        specifier: ^8.4.30
-        version: 8.4.30
-      react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
       storybook:
         specifier: 7.4.6
         version: 7.4.6
-      tailwind-merge:
-        specifier: ^1.14.0
-        version: 1.14.0
-      tailwindcss:
-        specifier: ^3.3.3
-        version: 3.3.3
-      typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
 
   packages/utils:
     devDependencies:
@@ -6899,7 +6896,6 @@ packages:
   /clsx@2.0.0:
     resolution: {integrity: sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==}
     engines: {node: '>=6'}
-    dev: true
 
   /cmd-shim@6.0.1:
     resolution: {integrity: sha512-S9iI9y0nKR4hwEQsVWpyxld/6kRfGepGfzff83FcaiEBpmvlbA2nnGe7Cylgrx2f/p1P5S5wpRm9oL8z1PbS3Q==}
@@ -12172,7 +12168,6 @@ packages:
 
   /tailwind-merge@1.14.0:
     resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
-    dev: true
 
   /tailwindcss@3.3.3:
     resolution: {integrity: sha512-A0KgSkef7eE4Mf+nKJ83i75TMyq8HqY3qmFIJSWy8bNt0v1lG7jUcpGpoTFxAwYcWOphcTBLPPJg+bDfhDf52w==}
