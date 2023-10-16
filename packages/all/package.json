@@ -20,7 +20,7 @@
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
   },
-  "c": {
+  "peerDependencies": {
     "nx-react-library-hooks": "^0.2.1",
     "nx-react-library-icons": "^0.2.1",
     "nx-react-library-ui": "^0.2.5",
