@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "nx-react-library-hooks",
+  "name": "@nx-react-library/hooks",
   "version": "0.2.1",
   "description": "Shared hooks",
   "main": "dist/index.js",

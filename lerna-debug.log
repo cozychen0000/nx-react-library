@@ -1,0 +1,19 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   lernaVersion: '7.3.1',
+0 silly argv   '$0': 'C:\\Users\\cozychen\\AppData\\Local\\npm-cache\\_npx\\d5cad42883f80c04\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   script: 'build'
+0 silly argv }
+1 notice cli v7.3.1
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
+3 verbose rootPath E:\Data\cozychen\Desktop\test\nx-react-library
+4 error Error: Could not find ".modules.yaml" at "E:\Data\cozychen\Desktop\test\nx-react-library/node_modules/.modules.yaml"
+4 error     at loadPnpmHoistedDepsDefinition (C:\Users\cozychen\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\plugins\js\lock-file\utils\pnpm-normalizer.js:23:15)
+4 error     at getNodes (C:\Users\cozychen\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\plugins\js\lock-file\pnpm-parser.js:69:77)
+4 error     at getPnpmLockfileNodes (C:\Users\cozychen\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\plugins\js\lock-file\pnpm-parser.js:27:12)
+4 error     at getLockFileNodes (C:\Users\cozychen\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\plugins\js\lock-file\lock-file.js:36:59)
+4 error     at exports.createNodes (C:\Users\cozychen\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\plugins\js\index.js:42:64)
+4 error     at buildProjectsConfigurationsFromProjectPathsAndPlugins (C:\Users\cozychen\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:68:88)
+4 error     at createProjectConfigurations (C:\Users\cozychen\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:131:129)
+4 error     at WorkspaceContext.<anonymous> (C:\Users\cozychen\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:82:39)
+4 error     at getProjectConfigurationsFromContext (C:\Users\cozychen\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\utils\workspace-context.js:26:29)
