@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@nx-react-library/hooks",
+  "name": "nx-react-library-hooks",
   "version": "0.2.10",
   "description": "Shared hooks",
   "main": "dist/index.js",
@@ -15,5 +15,5 @@
   "devDependencies": {
     "typescript": "^5.2.2"
   },
-  "gitHead": "75310b5a539bd0e8fb6206a15e2399e6bf9b1130"
+  "gitHead": "f1b03826d85209b2eda7e7007536d45e042ce216"
 }

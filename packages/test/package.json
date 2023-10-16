@@ -1,0 +1,19 @@
+{
+    "private": false,
+    "name": "@nx-react-library/test",
+    "version": "0.2.10",
+    "description": "Shared test",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+      "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "typescript": "^5.2.2"
+    },
+    "gitHead": "f1b03826d85209b2eda7e7007536d45e042ce216"
+  }

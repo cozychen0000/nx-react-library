@@ -130,6 +130,12 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
+  packages/test:
+    devDependencies:
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
   packages/ui:
     dependencies:
       '@storybook/addon-postcss':
