@@ -1,6 +1,6 @@
 {
   "name": "nx-react-library-all",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,5 +26,5 @@
     "nx-react-library-ui": "^0.2.5",
     "nx-react-library-utils": "^0.2.1"
   },
-  "gitHead": "75310b5a539bd0e8fb6206a15e2399e6bf9b1130" 
+  "gitHead": "75310b5a539bd0e8fb6206a15e2399e6bf9b1130"
 }
