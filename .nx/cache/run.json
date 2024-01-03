@@ -1,0 +1,54 @@
+{
+  "run": {
+    "command": "cli run build",
+    "startTime": "2024-01-03T06:09:15.254Z",
+    "endTime": "2024-01-03T06:09:28.852Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "nx-react-library-utils:build",
+      "target": "build",
+      "projectName": "nx-react-library-utils",
+      "hash": "12972854646712241854",
+      "startTime": "2024-01-03T06:09:15.263Z",
+      "endTime": "2024-01-03T06:09:26.676Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "nx-react-library-icons:build",
+      "target": "build",
+      "projectName": "nx-react-library-icons",
+      "hash": "16437391197560046096",
+      "startTime": "2024-01-03T06:09:15.263Z",
+      "endTime": "2024-01-03T06:09:26.685Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "nx-react-library-hooks:build",
+      "target": "build",
+      "projectName": "nx-react-library-hooks",
+      "hash": "10798089258535727019",
+      "startTime": "2024-01-03T06:09:15.263Z",
+      "endTime": "2024-01-03T06:09:26.776Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "nx-react-library-ui:build",
+      "target": "build",
+      "projectName": "nx-react-library-ui",
+      "hash": "16331817251152074133",
+      "startTime": "2024-01-03T06:09:15.262Z",
+      "endTime": "2024-01-03T06:09:28.848Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

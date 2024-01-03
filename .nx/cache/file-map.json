@@ -1,0 +1,393 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.8.1",
+  "deps": {
+    "@types/node": "^20.6.3",
+    "@types/react": "^18.2.15",
+    "lerna": "^7.3.0",
+    "nx": "^16.8.1",
+    "tailwindcss": "^3.3.3",
+    "react": "^18.2.0",
+    "nx-cloud": "^16.4.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "projectFileMap": {
+    "nx-react-library-icons": [
+      {
+        "file": "packages/icons/index.ts",
+        "hash": "10911466392159968717"
+      },
+      {
+        "file": "packages/icons/package.json",
+        "hash": "2917568583871533614",
+        "deps": [
+          "npm:react",
+          "npm:typescript"
+        ]
+      },
+      {
+        "file": "packages/icons/tsconfig.json",
+        "hash": "5666768350423976559"
+      }
+    ],
+    "nx-react-library-ui": [
+      {
+        "file": "packages/ui/.babelrc.json",
+        "hash": "16381068587818688863"
+      },
+      {
+        "file": "packages/ui/.storybook/main.ts",
+        "hash": "8216674325506172803"
+      },
+      {
+        "file": "packages/ui/.storybook/preview.ts",
+        "hash": "11806745301293186138"
+      },
+      {
+        "file": "packages/ui/README.md",
+        "hash": "14608724493528923798"
+      },
+      {
+        "file": "packages/ui/components/avatar/avatar-types.ts",
+        "hash": "18435170094619717599"
+      },
+      {
+        "file": "packages/ui/components/avatar/avatar.tsx",
+        "hash": "713619559784254982"
+      },
+      {
+        "file": "packages/ui/components/avatar/index.ts",
+        "hash": "2350744688851422576"
+      },
+      {
+        "file": "packages/ui/components/button/Button.stories.tsx",
+        "hash": "5278857805543679300"
+      },
+      {
+        "file": "packages/ui/components/button/button-types.ts",
+        "hash": "10679646234026375699"
+      },
+      {
+        "file": "packages/ui/components/button/button.tsx",
+        "hash": "9220060617588985416"
+      },
+      {
+        "file": "packages/ui/components/button/icon-button.tsx",
+        "hash": "14076790360561242757"
+      },
+      {
+        "file": "packages/ui/components/button/index.ts",
+        "hash": "11645031349483836680"
+      },
+      {
+        "file": "packages/ui/components/button2/Button2.tsx",
+        "hash": "7393671676793533762"
+      },
+      {
+        "file": "packages/ui/components/global.css",
+        "hash": "11855546407738933268"
+      },
+      {
+        "file": "packages/ui/components/index.ts",
+        "hash": "17443523427752928362"
+      },
+      {
+        "file": "packages/ui/components/tailwind.css",
+        "hash": "13984638978926036688"
+      },
+      {
+        "file": "packages/ui/index.ts",
+        "hash": "9978862524372536942"
+      },
+      {
+        "file": "packages/ui/package.json",
+        "hash": "5115156897956639016",
+        "deps": [
+          "npm:@storybook/addon-postcss",
+          "npm:concurrently",
+          "npm:@babel/preset-env",
+          "npm:@babel/preset-react",
+          "npm:@babel/preset-typescript",
+          "npm:@storybook/addon-essentials",
+          "npm:@storybook/addon-interactions",
+          "npm:@storybook/addon-links",
+          "npm:@storybook/addon-onboarding",
+          "npm:@storybook/addon-styling-webpack",
+          "npm:@storybook/blocks",
+          "npm:@storybook/react",
+          "npm:@storybook/react-webpack5",
+          "npm:@storybook/testing-library",
+          "npm:storybook",
+          "npm:clsx",
+          "npm:postcss",
+          "npm:react",
+          "npm:tailwind-merge",
+          "npm:tailwindcss",
+          "npm:typescript"
+        ]
+      },
+      {
+        "file": "packages/ui/plugin/base.ts",
+        "hash": "4274951085654128565"
+      },
+      {
+        "file": "packages/ui/plugin/helpers.ts",
+        "hash": "17236031683404670034"
+      },
+      {
+        "file": "packages/ui/plugin/index.ts",
+        "hash": "4274951085654128565"
+      },
+      {
+        "file": "packages/ui/plugin/styles/avatar.ts",
+        "hash": "10249310869112343874"
+      },
+      {
+        "file": "packages/ui/plugin/styles/button.ts",
+        "hash": "279735886448904388"
+      },
+      {
+        "file": "packages/ui/plugin/styles/index.ts",
+        "hash": "3771019371072012947"
+      },
+      {
+        "file": "packages/ui/postcss.config.ts",
+        "hash": "4935527938877389174"
+      },
+      {
+        "file": "packages/ui/stories/Configure.mdx",
+        "hash": "3123603684332017643"
+      },
+      {
+        "file": "packages/ui/stories/assets/accessibility.png",
+        "hash": "8320090732909952534"
+      },
+      {
+        "file": "packages/ui/stories/assets/accessibility.svg",
+        "hash": "15602003233623176060"
+      },
+      {
+        "file": "packages/ui/stories/assets/addon-library.png",
+        "hash": "16374768047356923990"
+      },
+      {
+        "file": "packages/ui/stories/assets/assets.png",
+        "hash": "1689741917386238418"
+      },
+      {
+        "file": "packages/ui/stories/assets/context.png",
+        "hash": "1348985643342670004"
+      },
+      {
+        "file": "packages/ui/stories/assets/discord.svg",
+        "hash": "6125630960371971211"
+      },
+      {
+        "file": "packages/ui/stories/assets/docs.png",
+        "hash": "18280049778802555454"
+      },
+      {
+        "file": "packages/ui/stories/assets/figma-plugin.png",
+        "hash": "6723570263244528263"
+      },
+      {
+        "file": "packages/ui/stories/assets/github.svg",
+        "hash": "2312545202508444152"
+      },
+      {
+        "file": "packages/ui/stories/assets/share.png",
+        "hash": "2975175390326490054"
+      },
+      {
+        "file": "packages/ui/stories/assets/styling.png",
+        "hash": "7588361746934983524"
+      },
+      {
+        "file": "packages/ui/stories/assets/testing.png",
+        "hash": "9937432921968504604"
+      },
+      {
+        "file": "packages/ui/stories/assets/theming.png",
+        "hash": "10878554446503237882"
+      },
+      {
+        "file": "packages/ui/stories/assets/tutorials.svg",
+        "hash": "6526954541826200653"
+      },
+      {
+        "file": "packages/ui/stories/assets/youtube.svg",
+        "hash": "14842170009963527645"
+      },
+      {
+        "file": "packages/ui/tailwind.config.ts",
+        "hash": "9447619887204907539"
+      },
+      {
+        "file": "packages/ui/tsconfig.json",
+        "hash": "5666768350423976559"
+      },
+      {
+        "file": "packages/ui/utils.ts",
+        "hash": "18268336356681993101"
+      }
+    ],
+    "test": [
+      {
+        "file": "apps/test/.eslintrc.cjs",
+        "hash": "18224317155734308275"
+      },
+      {
+        "file": "apps/test/.gitignore",
+        "hash": "13046175384202504187"
+      },
+      {
+        "file": "apps/test/README.md",
+        "hash": "10087808838262969736"
+      },
+      {
+        "file": "apps/test/index.html",
+        "hash": "4025202329384162906"
+      },
+      {
+        "file": "apps/test/package.json",
+        "hash": "2189675130480331058",
+        "deps": [
+          "npm:react",
+          "npm:react-dom",
+          "npm:@types/node",
+          "npm:@types/react",
+          "npm:@types/react-dom",
+          "npm:@typescript-eslint/eslint-plugin",
+          "npm:@typescript-eslint/parser",
+          "npm:@vitejs/plugin-react",
+          "npm:autoprefixer",
+          "npm:clsx",
+          "npm:eslint",
+          "npm:eslint-plugin-react-hooks",
+          "npm:eslint-plugin-react-refresh",
+          "npm:postcss",
+          "npm:tailwind-merge",
+          "npm:tailwindcss",
+          "npm:typescript",
+          "npm:vite",
+          "nx-react-library-ui"
+        ]
+      },
+      {
+        "file": "apps/test/postcss.config.js",
+        "hash": "1579725330904862112"
+      },
+      {
+        "file": "apps/test/public/vite.svg",
+        "hash": "16046085400642193116"
+      },
+      {
+        "file": "apps/test/src/App.css",
+        "hash": "3739391659270974612"
+      },
+      {
+        "file": "apps/test/src/App.tsx",
+        "hash": "17635833236148587852"
+      },
+      {
+        "file": "apps/test/src/assets/react.svg",
+        "hash": "16069471864800376455"
+      },
+      {
+        "file": "apps/test/src/index.css",
+        "hash": "12735638460237874260"
+      },
+      {
+        "file": "apps/test/src/main.tsx",
+        "hash": "12948679595907665671"
+      },
+      {
+        "file": "apps/test/src/vite-env.d.ts",
+        "hash": "12946363841406869089"
+      },
+      {
+        "file": "apps/test/tailwind.config.ts",
+        "hash": "13792228477455796155"
+      },
+      {
+        "file": "apps/test/tsconfig.json",
+        "hash": "7488858522640535106"
+      },
+      {
+        "file": "apps/test/tsconfig.node.json",
+        "hash": "8586866767247417612"
+      },
+      {
+        "file": "apps/test/vite.config.ts",
+        "hash": "7008402861428644331"
+      },
+      {
+        "file": "apps/test/vite.config.ts.timestamp-1695460426189-659e0c2714a1f.mjs",
+        "hash": "16637484433509357569"
+      }
+    ],
+    "nx-react-library-utils": [
+      {
+        "file": "packages/utils/index.ts",
+        "hash": "6559664388040183590"
+      },
+      {
+        "file": "packages/utils/package.json",
+        "hash": "8167996543305735645",
+        "deps": [
+          "npm:typescript"
+        ]
+      },
+      {
+        "file": "packages/utils/tsconfig.json",
+        "hash": "5666768350423976559"
+      }
+    ],
+    "nx-react-library-hooks": [
+      {
+        "file": "packages/hooks/index.ts",
+        "hash": "7142457218460925395"
+      },
+      {
+        "file": "packages/hooks/package.json",
+        "hash": "12212315492365817758",
+        "deps": [
+          "npm:typescript"
+        ]
+      },
+      {
+        "file": "packages/hooks/tsconfig.json",
+        "hash": "5666768350423976559"
+      },
+      {
+        "file": "packages/hooks/useDebounce.ts",
+        "hash": "148462151103036452"
+      },
+      {
+        "file": "packages/hooks/useDevice.ts",
+        "hash": "6195932023821610870"
+      },
+      {
+        "file": "packages/hooks/useDisclosure.ts",
+        "hash": "2395181377772299472"
+      },
+      {
+        "file": "packages/hooks/useFetch.ts",
+        "hash": "17222829930681567731"
+      },
+      {
+        "file": "packages/hooks/useLocalStorage.ts",
+        "hash": "11352422049308483208"
+      },
+      {
+        "file": "packages/hooks/useMediaQuery.ts",
+        "hash": "9327271708302153315"
+      },
+      {
+        "file": "packages/hooks/utils.ts",
+        "hash": "13247025851391273826"
+      }
+    ]
+  }
+}
