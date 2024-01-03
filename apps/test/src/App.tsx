@@ -2,8 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Button2 } from 'ui'
-import { cN } from 'ui/utils'
+import { Button2 } from 'nx-react-library-ui'
+import { cN } from 'nx-react-library-ui/utils'
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button className={cN('avatar', classNames, {
-          "bg-lime-200": true,
+          // "bg-lime-200": true,
         })} onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
