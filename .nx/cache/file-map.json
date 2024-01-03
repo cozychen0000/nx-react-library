@@ -13,6 +13,118 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "projectFileMap": {
+    "test": [
+      {
+        "file": "apps/test/.eslintrc.cjs",
+        "hash": "18224317155734308275"
+      },
+      {
+        "file": "apps/test/.gitignore",
+        "hash": "13046175384202504187"
+      },
+      {
+        "file": "apps/test/README.md",
+        "hash": "10087808838262969736"
+      },
+      {
+        "file": "apps/test/index.html",
+        "hash": "4025202329384162906"
+      },
+      {
+        "file": "apps/test/package.json",
+        "hash": "2189675130480331058",
+        "deps": [
+          "npm:react",
+          "npm:react-dom",
+          "npm:@types/node",
+          "npm:@types/react",
+          "npm:@types/react-dom",
+          "npm:@typescript-eslint/eslint-plugin",
+          "npm:@typescript-eslint/parser",
+          "npm:@vitejs/plugin-react",
+          "npm:autoprefixer",
+          "npm:clsx",
+          "npm:eslint",
+          "npm:eslint-plugin-react-hooks",
+          "npm:eslint-plugin-react-refresh",
+          "npm:postcss",
+          "npm:tailwind-merge",
+          "npm:tailwindcss",
+          "npm:typescript",
+          "npm:vite",
+          "nx-react-library-ui"
+        ]
+      },
+      {
+        "file": "apps/test/postcss.config.js",
+        "hash": "1579725330904862112"
+      },
+      {
+        "file": "apps/test/public/vite.svg",
+        "hash": "16046085400642193116"
+      },
+      {
+        "file": "apps/test/src/App.css",
+        "hash": "3739391659270974612"
+      },
+      {
+        "file": "apps/test/src/App.tsx",
+        "hash": "17635833236148587852"
+      },
+      {
+        "file": "apps/test/src/assets/react.svg",
+        "hash": "16069471864800376455"
+      },
+      {
+        "file": "apps/test/src/index.css",
+        "hash": "12735638460237874260"
+      },
+      {
+        "file": "apps/test/src/main.tsx",
+        "hash": "12948679595907665671"
+      },
+      {
+        "file": "apps/test/src/vite-env.d.ts",
+        "hash": "12946363841406869089"
+      },
+      {
+        "file": "apps/test/tailwind.config.ts",
+        "hash": "13792228477455796155"
+      },
+      {
+        "file": "apps/test/tsconfig.json",
+        "hash": "7488858522640535106"
+      },
+      {
+        "file": "apps/test/tsconfig.node.json",
+        "hash": "8586866767247417612"
+      },
+      {
+        "file": "apps/test/vite.config.ts",
+        "hash": "7008402861428644331"
+      },
+      {
+        "file": "apps/test/vite.config.ts.timestamp-1695460426189-659e0c2714a1f.mjs",
+        "hash": "16637484433509357569"
+      }
+    ],
+    "nx-react-library-utils": [
+      {
+        "file": "packages/utils/index.ts",
+        "hash": "6559664388040183590"
+      },
+      {
+        "file": "packages/utils/package.json",
+        "hash": "8167996543305735645",
+        "deps": [
+          "npm:typescript"
+        ]
+      },
+      {
+        "file": "packages/utils/tsconfig.json",
+        "hash": "5666768350423976559"
+      }
+    ],
     "nx-react-library-icons": [
       {
         "file": "packages/icons/index.ts",
@@ -232,118 +344,6 @@
         "hash": "18268336356681993101"
       }
     ],
-    "test": [
-      {
-        "file": "apps/test/.eslintrc.cjs",
-        "hash": "18224317155734308275"
-      },
-      {
-        "file": "apps/test/.gitignore",
-        "hash": "13046175384202504187"
-      },
-      {
-        "file": "apps/test/README.md",
-        "hash": "10087808838262969736"
-      },
-      {
-        "file": "apps/test/index.html",
-        "hash": "4025202329384162906"
-      },
-      {
-        "file": "apps/test/package.json",
-        "hash": "2189675130480331058",
-        "deps": [
-          "npm:react",
-          "npm:react-dom",
-          "npm:@types/node",
-          "npm:@types/react",
-          "npm:@types/react-dom",
-          "npm:@typescript-eslint/eslint-plugin",
-          "npm:@typescript-eslint/parser",
-          "npm:@vitejs/plugin-react",
-          "npm:autoprefixer",
-          "npm:clsx",
-          "npm:eslint",
-          "npm:eslint-plugin-react-hooks",
-          "npm:eslint-plugin-react-refresh",
-          "npm:postcss",
-          "npm:tailwind-merge",
-          "npm:tailwindcss",
-          "npm:typescript",
-          "npm:vite",
-          "nx-react-library-ui"
-        ]
-      },
-      {
-        "file": "apps/test/postcss.config.js",
-        "hash": "1579725330904862112"
-      },
-      {
-        "file": "apps/test/public/vite.svg",
-        "hash": "16046085400642193116"
-      },
-      {
-        "file": "apps/test/src/App.css",
-        "hash": "3739391659270974612"
-      },
-      {
-        "file": "apps/test/src/App.tsx",
-        "hash": "17635833236148587852"
-      },
-      {
-        "file": "apps/test/src/assets/react.svg",
-        "hash": "16069471864800376455"
-      },
-      {
-        "file": "apps/test/src/index.css",
-        "hash": "12735638460237874260"
-      },
-      {
-        "file": "apps/test/src/main.tsx",
-        "hash": "12948679595907665671"
-      },
-      {
-        "file": "apps/test/src/vite-env.d.ts",
-        "hash": "12946363841406869089"
-      },
-      {
-        "file": "apps/test/tailwind.config.ts",
-        "hash": "13792228477455796155"
-      },
-      {
-        "file": "apps/test/tsconfig.json",
-        "hash": "7488858522640535106"
-      },
-      {
-        "file": "apps/test/tsconfig.node.json",
-        "hash": "8586866767247417612"
-      },
-      {
-        "file": "apps/test/vite.config.ts",
-        "hash": "7008402861428644331"
-      },
-      {
-        "file": "apps/test/vite.config.ts.timestamp-1695460426189-659e0c2714a1f.mjs",
-        "hash": "16637484433509357569"
-      }
-    ],
-    "nx-react-library-utils": [
-      {
-        "file": "packages/utils/index.ts",
-        "hash": "6559664388040183590"
-      },
-      {
-        "file": "packages/utils/package.json",
-        "hash": "8167996543305735645",
-        "deps": [
-          "npm:typescript"
-        ]
-      },
-      {
-        "file": "packages/utils/tsconfig.json",
-        "hash": "5666768350423976559"
-      }
-    ],
     "nx-react-library-hooks": [
       {
         "file": "packages/hooks/index.ts",
@@ -362,7 +362,7 @@
       },
       {
         "file": "packages/hooks/useDebounce.ts",
-        "hash": "148462151103036452"
+        "hash": "11771758636575290820"
       },
       {
         "file": "packages/hooks/useDevice.ts",

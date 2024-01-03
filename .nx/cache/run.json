@@ -1,20 +1,20 @@
 {
   "run": {
     "command": "cli run build",
-    "startTime": "2024-01-03T06:09:15.254Z",
-    "endTime": "2024-01-03T06:09:28.852Z",
+    "startTime": "2024-01-03T06:12:27.676Z",
+    "endTime": "2024-01-03T06:12:33.363Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "nx-react-library-utils:build",
+      "taskId": "nx-react-library-ui:build",
       "target": "build",
-      "projectName": "nx-react-library-utils",
-      "hash": "12972854646712241854",
-      "startTime": "2024-01-03T06:09:15.263Z",
-      "endTime": "2024-01-03T06:09:26.676Z",
+      "projectName": "nx-react-library-ui",
+      "hash": "16331817251152074133",
+      "startTime": "2024-01-03T06:12:27.682Z",
+      "endTime": "2024-01-03T06:12:28.320Z",
       "params": "",
-      "cacheStatus": "cache-miss",
+      "cacheStatus": "local-cache-hit",
       "status": 0
     },
     {
@@ -22,30 +22,30 @@
       "target": "build",
       "projectName": "nx-react-library-icons",
       "hash": "16437391197560046096",
-      "startTime": "2024-01-03T06:09:15.263Z",
-      "endTime": "2024-01-03T06:09:26.685Z",
+      "startTime": "2024-01-03T06:12:27.682Z",
+      "endTime": "2024-01-03T06:12:28.329Z",
       "params": "",
-      "cacheStatus": "cache-miss",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "nx-react-library-utils:build",
+      "target": "build",
+      "projectName": "nx-react-library-utils",
+      "hash": "12972854646712241854",
+      "startTime": "2024-01-03T06:12:27.682Z",
+      "endTime": "2024-01-03T06:12:28.338Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
       "status": 0
     },
     {
       "taskId": "nx-react-library-hooks:build",
       "target": "build",
       "projectName": "nx-react-library-hooks",
-      "hash": "10798089258535727019",
-      "startTime": "2024-01-03T06:09:15.263Z",
-      "endTime": "2024-01-03T06:09:26.776Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "nx-react-library-ui:build",
-      "target": "build",
-      "projectName": "nx-react-library-ui",
-      "hash": "16331817251152074133",
-      "startTime": "2024-01-03T06:09:15.262Z",
-      "endTime": "2024-01-03T06:09:28.848Z",
+      "hash": "11616528558824093326",
+      "startTime": "2024-01-03T06:12:27.682Z",
+      "endTime": "2024-01-03T06:12:33.361Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
