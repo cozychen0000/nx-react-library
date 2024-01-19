@@ -108,21 +108,49 @@
         "hash": "16637484433509357569"
       }
     ],
-    "nx-react-library-utils": [
+    "nx-react-library-hooks": [
       {
-        "file": "packages/utils/index.ts",
-        "hash": "6559664388040183590"
+        "file": "packages/hooks/index.ts",
+        "hash": "12921415769608876621"
       },
       {
-        "file": "packages/utils/package.json",
-        "hash": "8167996543305735645",
+        "file": "packages/hooks/package.json",
+        "hash": "12212315492365817758",
         "deps": [
           "npm:typescript"
         ]
       },
       {
-        "file": "packages/utils/tsconfig.json",
+        "file": "packages/hooks/tsconfig.json",
         "hash": "5666768350423976559"
+      },
+      {
+        "file": "packages/hooks/useDebounce.ts",
+        "hash": "11771758636575290820"
+      },
+      {
+        "file": "packages/hooks/useDevice.ts",
+        "hash": "6195932023821610870"
+      },
+      {
+        "file": "packages/hooks/useDisclosure.ts",
+        "hash": "2395181377772299472"
+      },
+      {
+        "file": "packages/hooks/useFetch.ts",
+        "hash": "17222829930681567731"
+      },
+      {
+        "file": "packages/hooks/useLocalStorage.ts",
+        "hash": "11352422049308483208"
+      },
+      {
+        "file": "packages/hooks/useMediaQuery.ts",
+        "hash": "9327271708302153315"
+      },
+      {
+        "file": "packages/hooks/utils.ts",
+        "hash": "13247025851391273826"
       }
     ],
     "nx-react-library-icons": [
@@ -344,49 +372,21 @@
         "hash": "18268336356681993101"
       }
     ],
-    "nx-react-library-hooks": [
+    "nx-react-library-utils": [
       {
-        "file": "packages/hooks/index.ts",
-        "hash": "7142457218460925395"
+        "file": "packages/utils/index.ts",
+        "hash": "6559664388040183590"
       },
       {
-        "file": "packages/hooks/package.json",
-        "hash": "12212315492365817758",
+        "file": "packages/utils/package.json",
+        "hash": "8167996543305735645",
         "deps": [
           "npm:typescript"
         ]
       },
       {
-        "file": "packages/hooks/tsconfig.json",
+        "file": "packages/utils/tsconfig.json",
         "hash": "5666768350423976559"
-      },
-      {
-        "file": "packages/hooks/useDebounce.ts",
-        "hash": "11771758636575290820"
-      },
-      {
-        "file": "packages/hooks/useDevice.ts",
-        "hash": "6195932023821610870"
-      },
-      {
-        "file": "packages/hooks/useDisclosure.ts",
-        "hash": "2395181377772299472"
-      },
-      {
-        "file": "packages/hooks/useFetch.ts",
-        "hash": "17222829930681567731"
-      },
-      {
-        "file": "packages/hooks/useLocalStorage.ts",
-        "hash": "11352422049308483208"
-      },
-      {
-        "file": "packages/hooks/useMediaQuery.ts",
-        "hash": "9327271708302153315"
-      },
-      {
-        "file": "packages/hooks/utils.ts",
-        "hash": "13247025851391273826"
       }
     ]
   }
